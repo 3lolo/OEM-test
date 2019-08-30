@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+
+    <com.example.oemtest.view.SegmentView
+        android:id="@+id/segment0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorAccent"
+        android:drawable="@drawable/ic_android"
+        app:angle="36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startAngle="144"
+        tools:text="Hello 2" />
+
+
+    <com.example.oemtest.view.SegmentView
+        android:id="@+id/segment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorPrimaryDark"
+        android:drawable="@drawable/ic_android"
+        app:angle="36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startAngle="108"
+        tools:text="Hello 2" />
+
+    <com.example.oemtest.view.SegmentView
+        android:id="@+id/segment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorAccent"
+        android:drawable="@drawable/ic_android"
+        app:angle="36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:startAngle="72"
+        tools:text="Hello 2" />
+
+
+    <com.example.oemtest.view.SegmentView
+        android:id="@+id/segment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorPrimaryDark"
+        android:drawable="@drawable/ic_android"
+        app:angle="36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:startAngle="36"
+        tools:text="Hello 2" />
+
+    <com.example.oemtest.view.SegmentView
+        android:id="@+id/segment4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:color="@color/colorAccent"
+        android:drawable="@drawable/ic_android"
+        android:visibility="visible"
+        app:angle="36"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startAngle="0"
+        tools:text="Hello 2" />
+
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentView">
+        <attr name="startAngle" format="integer" />
+        <attr name="angle" format="integer" />
+        <attr name="android:color" format="reference" />
+        <attr name="android:drawable" format="reference" />
+    </declare-styleable>
+</resources>
